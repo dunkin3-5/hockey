@@ -1,78 +1,81 @@
-<!-- ========================= a.css ========================= -->
-  font-family: Arial, sans-serif;
-  /* light blue + white stripes background */
-  background: repeating-linear-gradient(
-    45deg,
-    #c9f4ff,
-    #c9f4ff 25px,
-    white 25px,
-    white 50px
-  );
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* light blue + white stripes */
+    background: repeating-linear-gradient(
+        45deg,
+        #bdefff,
+        #bdefff 20px,
+        #ffffff 20px,
+        #ffffff 40px
+    );
 }
 
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #7cd6e6;
-  color: white;
-}
-
-nav a {
-  margin: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.search-bar {
-  padding: 12px;
-  margin: 10px auto;
-  width: 50%;
-  display: block;
-  border-radius: 12px;
-  border: none;
-}
-
+/* CENTER EVERYTHING */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  padding: 40px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
-.left-box, .right-box {
-  background-color: white;
-  padding: 25px;
-  width: 350px;
-  border-radius: 20px;
-  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
-  text-align: center;
+/* BIG NAVY TITLE */
+.title {
+    color: navy;
+    font-size: 70px;
+    margin-top: 20px;
 }
 
-.right-box img {
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 12px;
+/* SEARCH BAR */
+.search-bar {
+    margin: 20px;
 }
 
-.page-box {
-  background: white;
-  margin: 40px auto;
-  padding: 25px;
-  width: 60%;
-  border-radius: 20px;
-  text-align: center;
+.search-bar input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
 }
 
-.gallery {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px;
+.search-bar button {
+    padding: 12px;
+    background: navy;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 
-.gallery img {
-  width: 300px;
-  border-radius: 15px;
+/* NAV */
+.nav {
+    margin: 20px;
+}
+
+.nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: navy;
+    font-weight: bold;
+}
+
+/* WHITE BOX */
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+/* CENTER BOX WIDTH */
+.single {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* IMAGES */
+.car-img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
 }
